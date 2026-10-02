@@ -1,0 +1,39 @@
+JSON is purely a text-based format for storing and transmitting structured data; it lacks programming logic like loops or conditionals, making it easier to learn than a full language. 
+1)Lightwight data format
+2)Easy to read and write
+3)Language Independent based on JS syntax
+
+
+-Where it is used?
+1)API
+2)config files
+3)Data Storage
+4)Web apps,mobile apps
+
+-Basic Structure
+Data is in Key-VALUE PAIR format
+Keys are always in strings "key":value
+values can be:
+1)String
+2)Number
+3)Boolean
+4)Arrays
+5)Null
+6)Object
+
+
+-Example
+    {
+        "name":"Ashwin",
+        "age":20,
+        "isStudent":false
+
+        "address":{
+            "Street":"1/23",
+            "city":"Pune",
+            "pincode":222001
+         }//address is sub head of json 
+    }
+
+-JSON Rules
+ 
